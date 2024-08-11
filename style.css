@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding: 0;
+    font font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+
+#top{
+    height: 70%;
+    width: 100%;
+    background-image:url(https://media.istockphoto.com/id/1159397218/photo/summer-beach-and-sea-with-clear-sky-background.jpg?s=612x612&w=0&k=20&c=szwT-aqog0Ng7D5rt-wjPykfxLk9k_4ESTeyAj6Z4Uo=);
+    background-size: cover;
+    background-position:60%;
+    border-radius: 1%;
+    background-repeat: no-repeat;  
+}
+ 
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 1%;
+  font-family: cursive;
+}
+
+
+.logo{
+    font-size:50px;
+    padding-bottom: 40px;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+   padding: 5% 20% ; 
+}
+
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.icons{
+    height: 20px;
+}
+
+
+.search{
+    margin: 150px;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: white;  
+}
+
+
+input{
+    background: white;
+    border: 0px;
+    outline: 0px;
+    width: 150px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+#bottom{
+    height: 40%;
+    width: 100%;
+    display: flex;   
+}
+
+
+#b1{
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-image: url(https://images.unsplash.com/photo-1542370285-b8eb8317691c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+#b2{
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    background-position: 10% ;
+    background-repeat: no-repeat;
+    border-radius: 1%;
+    background-image: url(https://images.unsplash.com/photo-1542397284385-6010376c5337?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+#b3{
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    background-position: 10% ;
+    background-repeat: no-repeat;
+    border-radius: 1%;
+    background-image: url(https://images.pexels.com/photos/11114517/pexels-photo-11114517.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+
+#b4{
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+   background-image: url(https://images.unsplash.com/photo-1521109464564-2fa2faa95858?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+#hello{
+    background-image: url(https://images.pexels.com/photos/6897770/pexels-photo-6897770.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+
+h1{
+    text-align: right;
+    font-size: 30px;
+}
+
+
+button{
+color: aqua;
+background-color: black;
+border-radius: 20px 20px ;
+text-align: center;
+width: 80px;
+height: 45px;
+display: block;
+margin: auto;
+}
+
+
+.icon-search{
+    color: black;
+
+}
